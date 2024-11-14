@@ -1,0 +1,49 @@
+#box1 {
+	background-color: blue;
+	width: 900px;
+	height: 200px;
+}
+
+#box2 {
+	background-color: red;
+	width: 900px;
+	height: 800px;
+	display: flex;
+}
+
+#box3 {
+	background-color: pink;
+	width: 70%;
+	height: 100%;
+}
+
+#box4 {
+	background-color: yellow;
+	border: 3px solid black;
+	border-radius: 10px;
+	box-sizing: border-box;
+	width: 30%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#box4:hover {
+	background-color: black;
+	height: 100px;
+	transition: 1s all ease-in-out;
+}
+
+#solo {
+	width: 20px;
+	height: 20px;
+	background-color: purple;
+}
+
+#solo2 {
+	width: 20px;
+	height: 20px;
+	background-color: green;
+}
